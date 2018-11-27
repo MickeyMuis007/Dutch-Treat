@@ -22,6 +22,7 @@ namespace DutchTreat
         {
             app.UseDefaultFiles();              // Will search for defualt urls, like /index.html. Should be called before UseStaticFiles that actually listen to static files in wwwroot directory
             app.UseStaticFiles();               // Serve static files in the wwwroot directory
+            app.UseNodeModules(env);
         }
     }
 }
