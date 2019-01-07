@@ -25,6 +25,10 @@ namespace DutchTreat
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/error");
+            }
 
             app.UseStaticFiles();               // Serve static files in the wwwroot directory
             app.UseNodeModules(env);
