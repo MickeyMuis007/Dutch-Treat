@@ -27,6 +27,7 @@ namespace DutchTreat
             }
 
             app.UseStaticFiles();               // Serve static files in the wwwroot directory
+            app.UseNodeModules(env);
 
             app.UseMvc(cfg => 
             {

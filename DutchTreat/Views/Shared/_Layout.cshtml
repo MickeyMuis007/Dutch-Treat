@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dutch Treat: @ViewBag.Title</title>
+    <!-- The (~) tilda simbol specifies that this start from the root of the folder the website is deployed in. -->
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <header>Welcome to Dutch Treat</header>
+    <section>
+        <h2>@ViewBag.Title</h2>
+        <!-- The RenderBody() will take a cshtml file and render it here when it is being rendered. -->
+        @RenderBody()
+    </section>
+    <footer>Coyright 2017 Dutch Treat LLC</footer>
+
+    
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/index.js"></script>
+</body>
+</html>
