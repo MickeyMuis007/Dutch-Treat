@@ -26,5 +26,10 @@
 
     <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="~/js/index.js"></script>
+    <!-- 
+        The RenderSection will through a error when not specify as false. This is to say that, that not all scripts should be run on every pages.
+        If not specified. These scripts will expect a section on every page.
+    -->
+    @RenderSection("scripts", false)
 </body>
 </html>
