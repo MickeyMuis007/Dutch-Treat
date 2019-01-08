@@ -8,7 +8,12 @@
   "Logging": {
     "LogLevel": {
       "Default": "Information",
-      "Microsoft":  "Warning"
+      "Microsoft": "Warning"
     }
+  },
+  "Tokens": {
+    "Key": "_jdiawk_jdjijf_fjiadf_Fjidfajf_djfad_fjida_w2d",
+    "Issuer": "localhost",
+    "Audience": "users"
   }
 }
