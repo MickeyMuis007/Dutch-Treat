@@ -19,6 +19,3 @@
         return this.ourName;
     }
 }
-
-let cust = new StoreCustomer("Mike","Will");
-cust.visits = 10;
