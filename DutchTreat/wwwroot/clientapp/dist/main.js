@@ -84,7 +84,7 @@ var AppComponent = /** @class */ (function () {
     }
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'my-app',
+            selector: 'the-shop',
             template: "\n    <!--The content below is only a placeholder and can be replaced.-->\n    <div style=\"text-align:center\">\n      <h1>\n        Welcome to {{title}}!\n      </h1>\n    </div>\n  ",
             styles: []
         })
